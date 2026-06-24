@@ -1,0 +1,1 @@
+Chapter 6 - Building resillient architectures with load balancing and auto-scaling and AWS Lambda
