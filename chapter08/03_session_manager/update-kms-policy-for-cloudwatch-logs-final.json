@@ -12,7 +12,7 @@
     ],
     "Resource": "*",
     "Condition": {
-        "ArnLike": {
+        "StringLike": {
             "kms:EncryptionContext:aws:logs:arn": "arn:aws:logs:REGION:ACCOUNTID:*"
         }
     }
