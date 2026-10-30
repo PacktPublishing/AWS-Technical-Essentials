@@ -1,0 +1,25 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "DescribeInstances",
+      "Effect": "Allow",
+      "Action": "ec2:DescribeInstances",
+      "Resource": "*"
+    },
+    {
+      "Sid": "StartStopOnlyTaggedInstances",
+      "Effect": "Allow",
+      "Action": [
+        "ec2:StartInstances",
+        "ec2:StopInstances"
+      ],
+      "Resource": "arn:aws:ec2:<region>:<account-id>:instance/*",
+      "Condition": {
+        "StringEquals": {
+          "ec2:ResourceTag/Chapter6Schedule": "enabled"
+        }
+      }
+    }
+  ]
+}
