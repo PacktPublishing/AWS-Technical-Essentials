@@ -1,4 +1,4 @@
-# Chapter 9 – Capstone Project: The Vegan Studio
+# Chapter 9 – Capstone Project: Ritual Roast Cafe
 
 ## Overview
 In this capstone project, you'll design, architect, and build a complete three-tier web application on AWS using the services and concepts covered throughout this study guide. The project combines networking, compute, storage, databases, security, scalability, and high availability into a real-world solution.
